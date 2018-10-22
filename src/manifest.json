@@ -1,7 +1,7 @@
 {
   "name": "Collections",
-  "version": "1.0",
-  "description": "Open a collection of related URLs",
+  "version": "0.0.1",
+  "description": "Chrome extension for quick browse to a collection of link",
   "background": {
     "scripts": ["background.js"],
     "persistent": false
