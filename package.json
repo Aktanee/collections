@@ -13,7 +13,7 @@
     "precommit": "./node_modules/.bin/lint-staged"
   },
   "lint-staged": {
-    "*.js": [
+    "*.+(js|vue|scss)": [
       "npm run format",
       "git add"
     ]
