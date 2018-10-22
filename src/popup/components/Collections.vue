@@ -16,13 +16,11 @@ export default {
   },
   data() {
     return {
-      collections: [
-        {
-          name: 'Games',
-          urls: ['https://pcgamer.com'],
-        },
-      ],
+      collections: false,
     }
+  },
+  async mounted() {
+    this.collections = await this.$storage.getAllCollections()
   },
 }
 </script>
