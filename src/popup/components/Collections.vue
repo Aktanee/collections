@@ -10,7 +10,7 @@
 import Collection from './Collection.vue'
 
 export default {
-  name: 'Link',
+  name: 'Collections',
   components: {
     Collection,
   },
